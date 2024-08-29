@@ -2,15 +2,11 @@ package kadai_018;
 
 abstract public class Kato_Chapter18 {
 	//姓を表す
-	String familyName = "加藤";
+	public String familyName = "加藤";
 	//名を表す
-	String givenName;
+	public String givenName;
 	//住所を表す
-	String address = "東京都中野区〇×";
-	
-	public void setGivenName(String givenName) {
-		this.givenName = givenName;
-	}
+	public String address = "東京都中野区〇×";
 	
 	//共通の紹介を出力する
 	public void commonIntroduce() {
