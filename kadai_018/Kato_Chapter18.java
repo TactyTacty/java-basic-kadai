@@ -8,7 +8,7 @@ abstract public class Kato_Chapter18 {
 	//住所を表す
 	String address = "東京都中野区〇×";
 	
-	public Kato_Chapter18(String givenName) {
+	public void setGivenName(String givenName) {
 		this.givenName = givenName;
 	}
 	
@@ -19,7 +19,7 @@ abstract public class Kato_Chapter18 {
 	}
 	
 	//個別の紹介を出力する
-	abstract void  eachIntroduce();
+	abstract public void  eachIntroduce();
 	
 	//紹介を実行する
 	public void execIntroduce() {
